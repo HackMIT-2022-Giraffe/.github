@@ -3,7 +3,7 @@
 
 We are team Capybara and we are passionate about teaching people just like us. As life long learners, we know how it important it is for people of all ages to be enganged science, history, technology and more. In addition, we are all passionate about the rise of the Metaverse and impact on the entertainment space as a whole. We tried to combine these two goals, with a passion for performant systems and natural langauge processing, to help students become more engaged with learning.
 
-Our Repo's
+# Our Repo's
 ----------
 * [React/Three.js Frontend](https://github.com/HackMIT-2022-Giraffe/giraffe-frontend/tree/main/education-station)
 * [Node.JS Backend](https://github.com/HackMIT-2022-Giraffe/giraffe-backend)
