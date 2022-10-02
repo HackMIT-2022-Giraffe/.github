@@ -9,15 +9,21 @@ We are team Capybara and we are passionate about teaching people just like us. A
 * [Node.JS Backend](https://github.com/HackMIT-2022-Giraffe/giraffe-backend)
 * [Python Algorithms and Analytics Engine](https://github.com/HackMIT-2022-Giraffe/giraffe-algo)
 
+# Brief What is
+
+Giraffe is a virtual reality environment to make your textbook readings more engaging. Giraffe begins with parsing the textbook for figures and facts. This content is then sent to GPT-3 which summarizes the content for the level of the user. Next in the pipeline is slide generation where the content is simplified using GPT-3. Figures scraped and bullet points are generated from the summarized materials to create slides along with the lecture itself. Lastly, the simplified speech of the textbook is passed to the facial model which takes in the speech and animates a 3d model into speaking. This speaking head is the lecturer and will help make it interactive for people studying. All of these elements are then brought together into a virtual reality lecture hall where they can feel like the lecturer is teaching them the book in the most engaging way possible.
+
 # What is Giraffe?
 
-Giraffe is a virtual reality environment to make your textbook readings more engaging. Often, our professors are not able to cover all the important points they test for on exams. Because of this, it’s our duty as students to complete textbook readings and know the content like the back of our hand. Although we know it’s important for our grade, if you’re like us, you get lost in the mountain of words and find the lecture format to be far more engaging.
+Giraffe is a virtual reality environment to make your textbook readings more engaging. Often, our professors are not able to cover all the important points they test for on exams. Because of this, it’s our duty as students to complete textbook readings and know the content like the back of our hand. If you’re like us, you get lost in the mountain of words and find the immersive lecture format to be far more engaging.
 
-Giraffe begins with parsing the textbook for figures and facts. This content is then sent to GTP-3 which summarizes the content for the level of the user. This means that our application can be used by middle schoolers and undergraduates regardless of the actual textbook given.
+Giraffe begins with parsing the textbook for figures and facts. This content is then sent to GPT-3 which summarizes the content for the level of the user. This means that our application can be used by middle schoolers and undergraduates regardless of the inputted textbook.
 
-Next in the pipeline is slide generation. The simplified content is then passed to GTP-3 to generate summaries of the simplified content. This is then rendered onto the slides that are shown in the virtual reality environment along with the appropriate figures.
+Next in the pipeline is slide generation. The simplified content is then passed to GPT-3 to generate summaries of the simplified content. This is then rendered onto the slides that are shown in the virtual reality environment along with the appropriate figures.
 
 Lastly, the simplified speech of the textbook is passed to the facial model which takes in the speech and animates a 3d model into speaking. This speaking head is the lecturer and will help make it interactive for people studying.
+
+All of these elements are then brought together into a virtual reality lecture hall where they can feel like the lecturer is teaching them the book in the most engaging way possible.
 
 # What is unique about Giraffe?
 
@@ -31,11 +37,11 @@ Our video combines the full capacity of the textbook in a digestible format that
 
 # Challenges we ran into
 
-We found it really difficult to see the first party support we were hoping for cross platform VR solutions. Because of this, we had to explore many different frameworks and libraries and ultimately found Three. Although it was a challenge to identify a framework, Three has been an invaluable asset in creating a virtual reality to host our lectures. Another immense challenge was the animated lecturer piece of our pipeline, having someone teach you the material is more much beneficial than a disembodied monotoned figure. But, having a speech to to facial renderer to compile on our machines seemed almost impossible because almost every model we would implement would fail miserably. However, we did find one model that worked, making the animated lecturer a (virtual) reality.
+We found it really difficult to see the first party support we were hoping for cross platform VR solutions. Because of this, we had to explore many different frameworks and libraries and ultimately found Three. Although it was a challenge to identify a framework, Three has been an invaluable asset in creating a virtual reality to host our lectures. Another immense challenge was the animated lecturer piece of our pipeline, having someone teach you the material is more much beneficial than a disembodied monotoned figure. But, having a speech to facial renderer compile seemed almost impossible because almost every model we would implement would have too many conflicts. However, after hours of debugging, we ended up finding a model that worked, making the animated lecturer a (virtual) reality. And another huge challenge was idea generation, coming up with this huge pipeline, its minor components, and overarching goals was difficult. We needed to think of something to make our hackathon worth hacking for. Luckily, we did, we genuinely found something we enjoyed building, and came to an idea that will help a lot of people.
 
 # Accomplishments we are proud of
 
-Usability is a huge component of our project that we’re really proud of. We know for an application as robust as this, having a good and easy experience for the user is essential, and we believe that our beautiful design allows each user to be able to have that. And, we’re also extremely proud of our architecture, the pipeline needed to make every single component happen is intense, behind the scenes there is an advanced level of Natural Language Processing and Deep Learning happening, as well as a huge load on the backend. Making a seamless architecture integrating with many different features to allow students to haven easy experience is really
+Usability is a huge component of our project that we’re really proud of. We know for an application as robust as this, having a good and easy experience for the user is essential, and we believe that our beautiful design allows each user to be able to have that. And, we’re also extremely proud of our architecture, the pipeline needed to make every single component happen is intense, behind the scenes there is an advanced level of Natural Language Processing and Deep Learning occurring, as well as a huge load on the backend. But more than anything, we’re really proud of the idea that we came up with and ended up pursuing. Coming into this project, we wanted to not only make something cool and use innovative technologies, but make something meaningful that we believe could actually help others, and we hope we achieved that goal. Making a seamless architecture integrating with many different features and allowing users to have an easy experience is amazing, but above anything else, we pride ourselves for the reason we decided to pursue this project.
 
 # Screenshots
 ![Screen Shot 2022-10-02 at 9.15.43 AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fce2a39b-4930-4d66-87c6-472e96f998ce/Screen_Shot_2022-10-02_at_9.15.43_AM.png)
